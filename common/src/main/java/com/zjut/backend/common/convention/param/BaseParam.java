@@ -1,4 +1,4 @@
-package com.zjut.backend.easychat.param;
+package com.zjut.backend.common.convention.param;
 
 import com.zjut.backend.common.convention.result.PageParam;
 import lombok.Data;
