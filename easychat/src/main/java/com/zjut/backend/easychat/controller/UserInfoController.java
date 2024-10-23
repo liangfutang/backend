@@ -1,7 +1,7 @@
 package com.zjut.backend.easychat.controller;
 
-import com.zjut.backend.easychat.common.convention.result.Result;
-import com.zjut.backend.easychat.common.convention.result.Results;
+import com.zjut.backend.common.convention.result.Result;
+import com.zjut.backend.common.convention.result.Results;
 import com.zjut.backend.easychat.mapper.UserInfoMapper;
 import com.zjut.backend.easychat.param.UserInfoParam;
 import lombok.AllArgsConstructor;

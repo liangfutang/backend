@@ -1,4 +1,4 @@
-package com.zjut.backend.easychat.common.convention.code;
+package com.zjut.backend.common.convention.code;
 
 /**
  * 全局通用错误码信息

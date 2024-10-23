@@ -1,4 +1,4 @@
-package com.zjut.backend.easychat.common.convention.result;
+package com.zjut.backend.common.convention.result;
 
 import lombok.Data;
 

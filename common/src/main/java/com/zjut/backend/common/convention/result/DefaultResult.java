@@ -1,6 +1,6 @@
-package com.zjut.backend.easychat.common.convention.result;
+package com.zjut.backend.common.convention.result;
 
-import com.zjut.backend.easychat.common.convention.code.ResultCodeEnum;
+import com.zjut.backend.common.convention.code.ResultCodeEnum;
 
 import java.io.Serializable;
 

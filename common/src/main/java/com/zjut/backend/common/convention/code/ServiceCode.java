@@ -1,7 +1,7 @@
-package com.zjut.backend.easychat.common.convention.code;
+package com.zjut.backend.common.convention.code;
 
 
-import com.zjut.backend.easychat.common.exception.ServiceException;
+import com.zjut.backend.common.exception.ServiceException;
 
 /**
  * 服务错误码接口

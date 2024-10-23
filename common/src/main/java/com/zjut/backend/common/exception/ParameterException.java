@@ -1,6 +1,6 @@
-package com.zjut.backend.easychat.common.exception;
+package com.zjut.backend.common.exception;
 
-import com.zjut.backend.easychat.common.convention.code.ResultCodeEnum;
+import com.zjut.backend.common.convention.code.ResultCodeEnum;
 
 /**
  * 参数异常

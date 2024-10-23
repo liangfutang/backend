@@ -1,6 +1,6 @@
-package com.zjut.backend.easychat.common.convention.result;
+package com.zjut.backend.common.convention.result;
 
-import com.zjut.backend.easychat.common.exception.ParameterException;
+import com.zjut.backend.common.exception.ParameterException;
 
 /**
  * 基础分页参数

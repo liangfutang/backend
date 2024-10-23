@@ -11,6 +11,7 @@
 
     <modules>
         <module>easychat</module>
+        <module>common</module>
     </modules>
 
     <properties>
@@ -93,6 +94,12 @@
                 <scope>import</scope>
                 <type>pom</type>
                 <version>${spring-boot.version}</version>
+            </dependency>
+            <!--     项目模块       -->
+            <dependency>
+                <groupId>com.zjut.backend</groupId>
+                <artifactId>common</artifactId>
+                <version>1.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

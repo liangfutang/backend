@@ -1,36 +1,36 @@
-package com.zjut.backend.easychat.common.exception;
+package com.zjut.backend.common.exception;
 
-import com.zjut.backend.easychat.common.convention.code.ServiceCode;
+import com.zjut.backend.common.convention.code.ServiceCode;
 
 /**
- * redis相关异常
- * @author tlf
+ * 业务系统业务逻辑相关异常
+ * @author jack
  */
-public class RedisOperationException extends RuntimeException {
+public class ServiceException extends RuntimeException {
     private static final long serialVersionUID = -5102560559568169695L;
 
     protected Integer code;
 
-    public RedisOperationException() {
+    public ServiceException() {
         super();
     }
 
-    public RedisOperationException(Integer code, String message) {
+    public ServiceException(Integer code, String message) {
         super(message);
         this.code = code;
     }
 
-    public RedisOperationException(Integer code, String message, Throwable cause) {
+    public ServiceException(Integer code, String message, Throwable cause) {
         super(message, cause);
         this.code = code;
     }
 
-    public RedisOperationException(ServiceCode respCode) {
+    public ServiceException(ServiceCode respCode) {
         super(respCode.message());
         this.code = respCode.code();
     }
 
-    public RedisOperationException(ServiceCode respCode, Throwable cause) {
+    public ServiceException(ServiceCode respCode, Throwable cause) {
         super(respCode.message(), cause);
         this.code = respCode.code();
     }
@@ -49,7 +49,7 @@ public class RedisOperationException extends RuntimeException {
 
     @Override
     public String toString() {
-        return "RedisOperationException{" +
+        return "ServiceException{" +
                 "code='" + code + '\'' +
                 "message='" + getMessage() + '\'' +
                 '}';
